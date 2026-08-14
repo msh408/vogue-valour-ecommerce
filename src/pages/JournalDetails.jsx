@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 function JournalDetails({ journal }) {
   const { id } = useParams();
 
-  const story =journal?.stories?.find(
+  const story = journal?.find(
     (item) => item.id === Number(id)
   );
 
@@ -23,6 +23,7 @@ function JournalDetails({ journal }) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-10">
 
         <div className="mb-8">
+
           <span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">
             {story.category} · {story.readTime}
           </span>
@@ -34,18 +35,21 @@ function JournalDetails({ journal }) {
           <p className="font-body-lg text-body-lg text-on-surface-variant italic">
             {story.description}
           </p>
+
         </div>
 
         <img
           src={story.image}
-          alt={story.description}
+          alt={story.title}
           className="w-full aspect-[16/9] object-cover mb-10"
         />
 
         <div className="max-w-3xl mx-auto">
+
           <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
             {story.content}
           </p>
+
         </div>
 
       </div>

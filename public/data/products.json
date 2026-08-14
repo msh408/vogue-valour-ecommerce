@@ -1,0 +1,5246 @@
+{
+  "schemaVersion": "2.0.0",
+  "store": {
+    "name": "Vogue Valour",
+    "currency": "USD",
+    "locale": "en-US"
+  },
+  "catalog": {
+    "departments": [
+      {
+        "id": "women",
+        "name": "Women",
+        "slug": "women"
+      },
+      {
+        "id": "men",
+        "name": "Men",
+        "slug": "men"
+      },
+      {
+        "id": "unisex",
+        "name": "Unisex",
+        "slug": "unisex"
+      }
+    ],
+    "categories": [
+      {
+        "id": "women-clothing",
+        "name": "Women's Clothing",
+        "gender": "Women",
+        "department": "Clothing"
+      },
+      {
+        "id": "men-clothing",
+        "name": "Men's Clothing",
+        "gender": "Men",
+        "department": "Clothing"
+      },
+      {
+        "id": "women-fragrance",
+        "name": "Women's Fragrance",
+        "gender": "Women",
+        "department": "Fragrance"
+      },
+      {
+        "id": "men-fragrance",
+        "name": "Men's Fragrance",
+        "gender": "Men",
+        "department": "Fragrance"
+      },
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "gender": "Unisex",
+        "department": "Accessories"
+      }
+    ],
+    "filters": {
+      "gender": [
+        "Women",
+        "Men",
+        "Unisex"
+      ],
+      "department": [
+        "Clothing",
+        "Fragrance",
+        "Accessories"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "volumes": [
+        "50ml",
+        "100ml"
+      ],
+      "colors": [
+        "Black",
+        "Burgundy",
+        "Camel",
+        "Champagne",
+        "Charcoal",
+        "Cocoa",
+        "Cognac",
+        "Cream",
+        "Deep Plum",
+        "Emerald",
+        "Espresso",
+        "Graphite",
+        "Heather Grey",
+        "Ivory",
+        "Ivory Print",
+        "Midnight",
+        "Midnight Navy",
+        "Midnight Print",
+        "Navy",
+        "Oatmeal",
+        "Olive",
+        "Rosewood",
+        "Sand",
+        "Stone",
+        "Taupe",
+        "Tobacco",
+        "White"
+      ],
+      "priceRange": {
+        "min": 58,
+        "max": 420
+      }
+    }
+  },
+  "sizeGuides": {
+    "women-apparel": {
+      "unit": "cm",
+      "sizes": {
+        "XS": {
+          "bust": "78-82",
+          "waist": "60-64",
+          "hip": "86-90"
+        },
+        "S": {
+          "bust": "83-87",
+          "waist": "65-69",
+          "hip": "91-95"
+        },
+        "M": {
+          "bust": "88-92",
+          "waist": "70-74",
+          "hip": "96-100"
+        },
+        "L": {
+          "bust": "93-99",
+          "waist": "75-81",
+          "hip": "101-107"
+        },
+        "XL": {
+          "bust": "100-106",
+          "waist": "82-88",
+          "hip": "108-114"
+        }
+      }
+    },
+    "men-apparel": {
+      "unit": "cm",
+      "sizes": {
+        "S": {
+          "chest": "88-94",
+          "waist": "74-80"
+        },
+        "M": {
+          "chest": "95-101",
+          "waist": "81-87"
+        },
+        "L": {
+          "chest": "102-108",
+          "waist": "88-94"
+        },
+        "XL": {
+          "chest": "109-116",
+          "waist": "95-102"
+        },
+        "XXL": {
+          "chest": "117-124",
+          "waist": "103-110"
+        }
+      }
+    },
+    "belt-size": {
+      "unit": "cm",
+      "sizes": {
+        "80": {
+          "waist": "75-85"
+        },
+        "85": {
+          "waist": "80-90"
+        },
+        "90": {
+          "waist": "85-95"
+        },
+        "95": {
+          "waist": "90-100"
+        },
+        "100": {
+          "waist": "95-105"
+        },
+        "105": {
+          "waist": "100-110"
+        }
+      }
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "slug": "silk-draped-midi-dress",
+      "name": "Silk Draped Midi Dress",
+      "sku": "VV-0001",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Dresses",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Dresses"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 189,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "A fluid silk-blend midi dress with an asymmetric draped neckline.",
+      "shortDescription": "A fluid silk-blend midi dress with an asymmetric draped neckline.",
+      "images": {
+        "thumbnail": "/images/products/silk-draped-midi-dress/main.png",
+        "main": "/images/products/silk-draped-midi-dress/main.png",
+        "gallery": [
+          "/images/products/silk-draped-midi-dress/main.png",
+          "/images/products/silk-draped-midi-dress/lifestyle.png"
+        ],
+        "alt": "Silk Draped Midi Dress"
+      },
+      "variants": [
+        {
+          "sku": "VV-0001-IVO-XS",
+          "size": "XS",
+          "color": "Ivory",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-IVO-S",
+          "size": "S",
+          "color": "Ivory",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-IVO-M",
+          "size": "M",
+          "color": "Ivory",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-IVO-L",
+          "size": "L",
+          "color": "Ivory",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-IVO-XL",
+          "size": "XL",
+          "color": "Ivory",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0001-BLA-XS",
+          "size": "XS",
+          "color": "Black",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0001-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Black",
+        "Ivory"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Cashmere",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.2,
+      "reviewCount": 25,
+      "badges": [],
+      "isFeatured": true,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 38,
+      "relatedProductIds": [
+        9,
+        2,
+        3,
+        4
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "dresses"
+      ],
+      "seo": {
+        "title": "Silk Draped Midi Dress | Vogue Valour",
+        "description": "A fluid silk-blend midi dress with an asymmetric draped neckline.",
+        "keywords": [
+          "Silk Draped Midi Dress",
+          "Women",
+          "Clothing",
+          "Dresses"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 2,
+      "slug": "tailored-wool-blazer",
+      "name": "Tailored Wool Blazer",
+      "sku": "VV-0002",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Blazers",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Blazers"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 225,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Structured single-breasted blazer cut from a soft wool blend.",
+      "shortDescription": "Structured single-breasted blazer cut from a soft wool blend.",
+      "images": {
+        "thumbnail": "/images/products/tailored-wool-blazer/main.png",
+        "main": "/images/products/tailored-wool-blazer/main.png",
+        "gallery": [
+          "/images/products/tailored-wool-blazer/main.png",
+          "/images/products/tailored-wool-blazer/lifestyle.png",
+          "/images/products/tailored-wool-blazer/detail.png"
+        ],
+        "alt": "Tailored Wool Blazer"
+      },
+      "variants": [
+        {
+          "sku": "VV-0002-CHA-XS",
+          "size": "XS",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CHA-S",
+          "size": "S",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CHA-M",
+          "size": "M",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CHA-L",
+          "size": "L",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CHA-XL",
+          "size": "XL",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CAM-XS",
+          "size": "XS",
+          "color": "Camel",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CAM-S",
+          "size": "S",
+          "color": "Camel",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CAM-M",
+          "size": "M",
+          "color": "Camel",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0002-CAM-L",
+          "size": "L",
+          "color": "Camel",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0002-CAM-XL",
+          "size": "XL",
+          "color": "Camel",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Camel",
+        "Charcoal"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Linen",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.3,
+      "reviewCount": 32,
+      "badges": [],
+      "isFeatured": true,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 39,
+      "relatedProductIds": [
+        17,
+        1,
+        3,
+        4
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "blazers"
+      ],
+      "seo": {
+        "title": "Tailored Wool Blazer | Vogue Valour",
+        "description": "Structured single-breasted blazer cut from a soft wool blend.",
+        "keywords": [
+          "Tailored Wool Blazer",
+          "Women",
+          "Clothing",
+          "Blazers"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 3,
+      "slug": "wide-leg-tailored-trousers",
+      "name": "Wide-Leg Tailored Trousers",
+      "sku": "VV-0003",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Trousers",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Trousers"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 139,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "High-rise tailored trousers with a relaxed wide-leg silhouette.",
+      "shortDescription": "High-rise tailored trousers with a relaxed wide-leg silhouette.",
+      "images": {
+        "thumbnail": "/images/products/wide-leg-tailored-trousers/main.png",
+        "main": "/images/products/wide-leg-tailored-trousers/main.png",
+        "gallery": [
+          "/images/products/wide-leg-tailored-trousers/main.png",
+          "/images/products/wide-leg-tailored-trousers/lifestyle.png",
+          "/images/products/wide-leg-tailored-trousers/detail.png"
+        ],
+        "alt": "Wide-Leg Tailored Trousers"
+      },
+      "variants": [
+        {
+          "sku": "VV-0003-BLA-XS",
+          "size": "XS",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0003-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-STO-XS",
+          "size": "XS",
+          "color": "Stone",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-STO-S",
+          "size": "S",
+          "color": "Stone",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-STO-M",
+          "size": "M",
+          "color": "Stone",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-STO-L",
+          "size": "L",
+          "color": "Stone",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0003-STO-XL",
+          "size": "XL",
+          "color": "Stone",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Black",
+        "Stone"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Cashmere",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.4,
+      "reviewCount": 39,
+      "badges": [],
+      "isFeatured": true,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 40,
+      "relatedProductIds": [
+        14,
+        1,
+        2,
+        4
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "trousers"
+      ],
+      "seo": {
+        "title": "Wide-Leg Tailored Trousers | Vogue Valour",
+        "description": "High-rise tailored trousers with a relaxed wide-leg silhouette.",
+        "keywords": [
+          "Wide-Leg Tailored Trousers",
+          "Women",
+          "Clothing",
+          "Trousers"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 4,
+      "slug": "cashmere-ribbed-knit",
+      "name": "Cashmere Ribbed Knit",
+      "sku": "VV-0004",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Knitwear",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Knitwear"
+      ],
+      "brand": "Valour Atelier",
+      "collection": "Autumn Edit 2026",
+      "price": 165,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Fine ribbed cashmere knit with a refined mock neckline.",
+      "shortDescription": "Fine ribbed cashmere knit with a refined mock neckline.",
+      "images": {
+        "thumbnail": "/images/products/cashmere-ribbed-knit/main.png",
+        "main": "/images/products/cashmere-ribbed-knit/main.png",
+        "gallery": [
+          "/images/products/cashmere-ribbed-knit/main.png",
+          "/images/products/cashmere-ribbed-knit/detail.png"
+        ],
+        "alt": "Cashmere Ribbed Knit"
+      },
+      "variants": [
+        {
+          "sku": "VV-0004-OAT-XS",
+          "size": "XS",
+          "color": "Oatmeal",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-OAT-S",
+          "size": "S",
+          "color": "Oatmeal",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-OAT-M",
+          "size": "M",
+          "color": "Oatmeal",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-OAT-L",
+          "size": "L",
+          "color": "Oatmeal",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-OAT-XL",
+          "size": "XL",
+          "color": "Oatmeal",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-BUR-XS",
+          "size": "XS",
+          "color": "Burgundy",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-BUR-S",
+          "size": "S",
+          "color": "Burgundy",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0004-BUR-M",
+          "size": "M",
+          "color": "Burgundy",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-BUR-L",
+          "size": "L",
+          "color": "Burgundy",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0004-BUR-XL",
+          "size": "XL",
+          "color": "Burgundy",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Burgundy",
+        "Oatmeal"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Linen",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.5,
+      "reviewCount": 46,
+      "badges": [
+        "New"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "isSale": false,
+      "totalStock": 41,
+      "relatedProductIds": [
+        13,
+        19,
+        1,
+        2
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "knitwear"
+      ],
+      "seo": {
+        "title": "Cashmere Ribbed Knit | Vogue Valour",
+        "description": "Fine ribbed cashmere knit with a refined mock neckline.",
+        "keywords": [
+          "Cashmere Ribbed Knit",
+          "Women",
+          "Clothing",
+          "Knitwear"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 5,
+      "slug": "satin-evening-blouse",
+      "name": "Satin Evening Blouse",
+      "sku": "VV-0005",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Tops",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Tops"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 119,
+      "compareAtPrice": 140,
+      "currency": "USD",
+      "description": "Lustrous satin blouse with softly gathered cuffs.",
+      "shortDescription": "Lustrous satin blouse with softly gathered cuffs.",
+      "images": {
+        "thumbnail": "/images/products/satin-evening-blouse/main.png",
+        "main": "/images/products/satin-evening-blouse/main.png",
+        "gallery": [
+          "/images/products/satin-evening-blouse/main.png"
+        ],
+        "alt": "Satin Evening Blouse"
+      },
+      "variants": [
+        {
+          "sku": "VV-0005-CHA-XS",
+          "size": "XS",
+          "color": "Champagne",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-CHA-S",
+          "size": "S",
+          "color": "Champagne",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-CHA-M",
+          "size": "M",
+          "color": "Champagne",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0005-CHA-L",
+          "size": "L",
+          "color": "Champagne",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-CHA-XL",
+          "size": "XL",
+          "color": "Champagne",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-MID-XS",
+          "size": "XS",
+          "color": "Midnight",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-MID-S",
+          "size": "S",
+          "color": "Midnight",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-MID-M",
+          "size": "M",
+          "color": "Midnight",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-MID-L",
+          "size": "L",
+          "color": "Midnight",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0005-MID-XL",
+          "size": "XL",
+          "color": "Midnight",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Champagne",
+        "Midnight"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Cashmere",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.6,
+      "reviewCount": 53,
+      "badges": [],
+      "isFeatured": true,
+      "isNew": false,
+      "isSale": true,
+      "totalStock": 42,
+      "relatedProductIds": [
+        8,
+        1,
+        2,
+        3
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "tops"
+      ],
+      "seo": {
+        "title": "Satin Evening Blouse | Vogue Valour",
+        "description": "Lustrous satin blouse with softly gathered cuffs.",
+        "keywords": [
+          "Satin Evening Blouse",
+          "Women",
+          "Clothing",
+          "Tops"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 6,
+      "slug": "leather-trench-coat",
+      "name": "Leather Trench Coat",
+      "sku": "VV-0006",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Outerwear",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Outerwear"
+      ],
+      "brand": "Valour Atelier",
+      "collection": "Autumn Edit 2026",
+      "price": 420,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Longline belted trench crafted from supple leather.",
+      "shortDescription": "Longline belted trench crafted from supple leather.",
+      "images": {
+        "thumbnail": "/images/products/leather-trench-coat/main.png",
+        "main": "/images/products/leather-trench-coat/main.png",
+        "gallery": [
+          "/images/products/leather-trench-coat/main.png",
+          "/images/products/leather-trench-coat/lifestyle.png",
+          "/images/products/leather-trench-coat/detail.png"
+        ],
+        "alt": "Leather Trench Coat"
+      },
+      "variants": [
+        {
+          "sku": "VV-0006-ESP-XS",
+          "size": "XS",
+          "color": "Espresso",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0006-ESP-S",
+          "size": "S",
+          "color": "Espresso",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0006-ESP-M",
+          "size": "M",
+          "color": "Espresso",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0006-ESP-L",
+          "size": "L",
+          "color": "Espresso",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0006-ESP-XL",
+          "size": "XL",
+          "color": "Espresso",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Espresso"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Silk",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.7,
+      "reviewCount": 60,
+      "badges": [],
+      "isFeatured": true,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 23,
+      "relatedProductIds": [
+        11,
+        1,
+        2,
+        3
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "outerwear"
+      ],
+      "seo": {
+        "title": "Leather Trench Coat | Vogue Valour",
+        "description": "Longline belted trench crafted from supple leather.",
+        "keywords": [
+          "Leather Trench Coat",
+          "Women",
+          "Clothing",
+          "Outerwear"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 7,
+      "slug": "pleated-maxi-skirt",
+      "name": "Pleated Maxi Skirt",
+      "sku": "VV-0007",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Skirts",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Skirts"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 148,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Knife-pleated maxi skirt with elegant movement.",
+      "shortDescription": "Knife-pleated maxi skirt with elegant movement.",
+      "images": {
+        "thumbnail": "/images/products/pleated-maxi-skirt/main.png",
+        "main": "/images/products/pleated-maxi-skirt/main.png",
+        "gallery": [
+          "/images/products/pleated-maxi-skirt/main.png",
+          "/images/products/pleated-maxi-skirt/lifestyle.png",
+          "/images/products/pleated-maxi-skirt/detail.png"
+        ],
+        "alt": "Pleated Maxi Skirt"
+      },
+      "variants": [
+        {
+          "sku": "VV-0007-GRA-XS",
+          "size": "XS",
+          "color": "Graphite",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-GRA-S",
+          "size": "S",
+          "color": "Graphite",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0007-GRA-M",
+          "size": "M",
+          "color": "Graphite",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-GRA-L",
+          "size": "L",
+          "color": "Graphite",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-GRA-XL",
+          "size": "XL",
+          "color": "Graphite",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-ROS-XS",
+          "size": "XS",
+          "color": "Rosewood",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-ROS-S",
+          "size": "S",
+          "color": "Rosewood",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-ROS-M",
+          "size": "M",
+          "color": "Rosewood",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-ROS-L",
+          "size": "L",
+          "color": "Rosewood",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0007-ROS-XL",
+          "size": "XL",
+          "color": "Rosewood",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Graphite",
+        "Rosewood"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Silk",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.8,
+      "reviewCount": 67,
+      "badges": [
+        "Best Seller"
+      ],
+      "isFeatured": true,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 35,
+      "relatedProductIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "skirts"
+      ],
+      "seo": {
+        "title": "Pleated Maxi Skirt | Vogue Valour",
+        "description": "Knife-pleated maxi skirt with elegant movement.",
+        "keywords": [
+          "Pleated Maxi Skirt",
+          "Women",
+          "Clothing",
+          "Skirts"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 8,
+      "slug": "sculpted-bodysuit",
+      "name": "Sculpted Bodysuit",
+      "sku": "VV-0008",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Tops",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Tops"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 88,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Double-layer stretch bodysuit with a sculpted square neckline.",
+      "shortDescription": "Double-layer stretch bodysuit with a sculpted square neckline.",
+      "images": {
+        "thumbnail": "/images/products/sculpted-bodysuit/main.png",
+        "main": "/images/products/sculpted-bodysuit/main.png",
+        "gallery": [
+          "/images/products/sculpted-bodysuit/main.png",
+          "/images/products/sculpted-bodysuit/lifestyle.png",
+          "/images/products/sculpted-bodysuit/detail.png"
+        ],
+        "alt": "Sculpted Bodysuit"
+      },
+      "variants": [
+        {
+          "sku": "VV-0008-BLA-XS",
+          "size": "XS",
+          "color": "Black",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-COC-XS",
+          "size": "XS",
+          "color": "Cocoa",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-COC-S",
+          "size": "S",
+          "color": "Cocoa",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-COC-M",
+          "size": "M",
+          "color": "Cocoa",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-COC-L",
+          "size": "L",
+          "color": "Cocoa",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0008-COC-XL",
+          "size": "XL",
+          "color": "Cocoa",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Black",
+        "Cocoa"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Silk",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.1,
+      "reviewCount": 74,
+      "badges": [
+        "New"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "isSale": false,
+      "totalStock": 45,
+      "relatedProductIds": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "tops"
+      ],
+      "seo": {
+        "title": "Sculpted Bodysuit | Vogue Valour",
+        "description": "Double-layer stretch bodysuit with a sculpted square neckline.",
+        "keywords": [
+          "Sculpted Bodysuit",
+          "Women",
+          "Clothing",
+          "Tops"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 9,
+      "slug": "velvet-evening-dress",
+      "name": "Velvet Evening Dress",
+      "sku": "VV-0009",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Dresses",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Dresses"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 245,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Floor-length velvet dress with a clean column silhouette.",
+      "shortDescription": "Floor-length velvet dress with a clean column silhouette.",
+      "images": {
+        "thumbnail": "/images/products/velvet-evening-dress/main.png",
+        "main": "/images/products/velvet-evening-dress/main.png",
+        "gallery": [
+          "/images/products/velvet-evening-dress/main.png"
+        ],
+        "alt": "Velvet Evening Dress"
+      },
+      "variants": [
+        {
+          "sku": "VV-0009-EME-XS",
+          "size": "XS",
+          "color": "Emerald",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0009-EME-S",
+          "size": "S",
+          "color": "Emerald",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-EME-M",
+          "size": "M",
+          "color": "Emerald",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-EME-L",
+          "size": "L",
+          "color": "Emerald",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-EME-XL",
+          "size": "XL",
+          "color": "Emerald",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-BLA-XS",
+          "size": "XS",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0009-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0009-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Black",
+        "Emerald"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Cashmere",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.2,
+      "reviewCount": 81,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 37,
+      "relatedProductIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "dresses"
+      ],
+      "seo": {
+        "title": "Velvet Evening Dress | Vogue Valour",
+        "description": "Floor-length velvet dress with a clean column silhouette.",
+        "keywords": [
+          "Velvet Evening Dress",
+          "Women",
+          "Clothing",
+          "Dresses"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 10,
+      "slug": "cropped-boucle-jacket",
+      "name": "Cropped Bouclé Jacket",
+      "sku": "VV-0010",
+      "status": "active",
+      "gender": "Women",
+      "department": "Clothing",
+      "category": "Jackets",
+      "categoryPath": [
+        "Women",
+        "Clothing",
+        "Jackets"
+      ],
+      "brand": "Valour Atelier",
+      "collection": "Autumn Edit 2026",
+      "price": 198,
+      "compareAtPrice": 234,
+      "currency": "USD",
+      "description": "Cropped bouclé jacket finished with polished metal buttons.",
+      "shortDescription": "Cropped bouclé jacket finished with polished metal buttons.",
+      "images": {
+        "thumbnail": "/images/products/cropped-boucle-jacket/main.png",
+        "main": "/images/products/cropped-boucle-jacket/main.png",
+        "gallery": [
+          "/images/products/cropped-boucle-jacket/main.png",
+          "/images/products/cropped-boucle-jacket/lifestyle.png",
+          "/images/products/cropped-boucle-jacket/detail.png"
+        ],
+        "alt": "Cropped Bouclé Jacket"
+      },
+      "variants": [
+        {
+          "sku": "VV-0010-CRE-XS",
+          "size": "XS",
+          "color": "Cream",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-CRE-S",
+          "size": "S",
+          "color": "Cream",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-CRE-M",
+          "size": "M",
+          "color": "Cream",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-CRE-L",
+          "size": "L",
+          "color": "Cream",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-CRE-XL",
+          "size": "XL",
+          "color": "Cream",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0010-BLA-XS",
+          "size": "XS",
+          "color": "Black",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0010-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XS"
+      ],
+      "availableColors": [
+        "Black",
+        "Cream"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "women-apparel",
+      "attributes": {
+        "material": "Leather",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.3,
+      "reviewCount": 88,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": true,
+      "totalStock": 38,
+      "relatedProductIds": [
+        15,
+        1,
+        2,
+        3
+      ],
+      "crossSellProductIds": [
+        24,
+        25,
+        26
+      ],
+      "tags": [
+        "women",
+        "clothing",
+        "jackets"
+      ],
+      "seo": {
+        "title": "Cropped Bouclé Jacket | Vogue Valour",
+        "description": "Cropped bouclé jacket finished with polished metal buttons.",
+        "keywords": [
+          "Cropped Bouclé Jacket",
+          "Women",
+          "Clothing",
+          "Jackets"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 11,
+      "slug": "structured-virgin-wool-coat",
+      "name": "Structured Virgin Wool Coat",
+      "sku": "VV-0011",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Outerwear",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Outerwear"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 360,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "A sharp longline coat made from dense virgin wool.",
+      "shortDescription": "A sharp longline coat made from dense virgin wool.",
+      "images": {
+        "thumbnail": "/images/products/structured-virgin-wool-coat/main.png",
+        "main": "/images/products/structured-virgin-wool-coat/main.png",
+        "gallery": [
+          "/images/products/structured-virgin-wool-coat/main.png",
+          "/images/products/structured-virgin-wool-coat/lifestyle.png",
+          "/images/products/structured-virgin-wool-coat/detail.png"
+        ],
+        "alt": "Structured Virgin Wool Coat"
+      },
+      "variants": [
+        {
+          "sku": "VV-0011-CHA-S",
+          "size": "S",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-CHA-M",
+          "size": "M",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-CHA-L",
+          "size": "L",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-CHA-XL",
+          "size": "XL",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-CHA-XXL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-NAV-S",
+          "size": "S",
+          "color": "Navy",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-NAV-M",
+          "size": "M",
+          "color": "Navy",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-NAV-L",
+          "size": "L",
+          "color": "Navy",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0011-NAV-XL",
+          "size": "XL",
+          "color": "Navy",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0011-NAV-XXL",
+          "size": "XXL",
+          "color": "Navy",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Charcoal",
+        "Navy"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Leather",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.4,
+      "reviewCount": 95,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 39,
+      "relatedProductIds": [
+        6,
+        12,
+        13,
+        14
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "outerwear"
+      ],
+      "seo": {
+        "title": "Structured Virgin Wool Coat | Vogue Valour",
+        "description": "A sharp longline coat made from dense virgin wool.",
+        "keywords": [
+          "Structured Virgin Wool Coat",
+          "Men",
+          "Clothing",
+          "Outerwear"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 12,
+      "slug": "relaxed-linen-shirt",
+      "name": "Relaxed Linen Shirt",
+      "sku": "VV-0012",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Shirts",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Shirts"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 105,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Breathable linen shirt with a relaxed modern cut.",
+      "shortDescription": "Breathable linen shirt with a relaxed modern cut.",
+      "images": {
+        "thumbnail": "/images/products/relaxed-linen-shirt/main.png",
+        "main": "/images/products/relaxed-linen-shirt/main.png",
+        "gallery": [
+          "/images/products/relaxed-linen-shirt/main.png",
+          "/images/products/relaxed-linen-shirt/lifestyle.png",
+          "/images/products/relaxed-linen-shirt/detail.png"
+        ],
+        "alt": "Relaxed Linen Shirt"
+      },
+      "variants": [
+        {
+          "sku": "VV-0012-WHI-S",
+          "size": "S",
+          "color": "White",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-WHI-M",
+          "size": "M",
+          "color": "White",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-WHI-L",
+          "size": "L",
+          "color": "White",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-WHI-XL",
+          "size": "XL",
+          "color": "White",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0012-WHI-XXL",
+          "size": "XXL",
+          "color": "White",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-OLI-S",
+          "size": "S",
+          "color": "Olive",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-OLI-M",
+          "size": "M",
+          "color": "Olive",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-OLI-L",
+          "size": "L",
+          "color": "Olive",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-OLI-XL",
+          "size": "XL",
+          "color": "Olive",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0012-OLI-XXL",
+          "size": "XXL",
+          "color": "Olive",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Olive",
+        "White"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Silk",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.5,
+      "reviewCount": 102,
+      "badges": [
+        "New"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "isSale": false,
+      "totalStock": 40,
+      "relatedProductIds": [
+        20,
+        11,
+        13,
+        14
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "shirts"
+      ],
+      "seo": {
+        "title": "Relaxed Linen Shirt | Vogue Valour",
+        "description": "Breathable linen shirt with a relaxed modern cut.",
+        "keywords": [
+          "Relaxed Linen Shirt",
+          "Men",
+          "Clothing",
+          "Shirts"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 13,
+      "slug": "merino-polo-knit",
+      "name": "Merino Polo Knit",
+      "sku": "VV-0013",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Knitwear",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Knitwear"
+      ],
+      "brand": "Valour Atelier",
+      "collection": "Autumn Edit 2026",
+      "price": 132,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Fine-gauge merino polo with a clean open collar.",
+      "shortDescription": "Fine-gauge merino polo with a clean open collar.",
+      "images": {
+        "thumbnail": "/images/products/merino-polo-knit/main.png",
+        "main": "/images/products/merino-polo-knit/main.png",
+        "gallery": [
+          "/images/products/merino-polo-knit/main.png",
+          "/images/products/merino-polo-knit/lifestyle.png",
+          "/images/products/merino-polo-knit/detail.png"
+        ],
+        "alt": "Merino Polo Knit"
+      },
+      "variants": [
+        {
+          "sku": "VV-0013-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-BLA-XXL",
+          "size": "XXL",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-SAN-S",
+          "size": "S",
+          "color": "Sand",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-SAN-M",
+          "size": "M",
+          "color": "Sand",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0013-SAN-L",
+          "size": "L",
+          "color": "Sand",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-SAN-XL",
+          "size": "XL",
+          "color": "Sand",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0013-SAN-XXL",
+          "size": "XXL",
+          "color": "Sand",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Black",
+        "Sand"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Leather",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.6,
+      "reviewCount": 109,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 41,
+      "relatedProductIds": [
+        4,
+        19,
+        11,
+        12
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "knitwear"
+      ],
+      "seo": {
+        "title": "Merino Polo Knit | Vogue Valour",
+        "description": "Fine-gauge merino polo with a clean open collar.",
+        "keywords": [
+          "Merino Polo Knit",
+          "Men",
+          "Clothing",
+          "Knitwear"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 14,
+      "slug": "tapered-wool-trousers",
+      "name": "Tapered Wool Trousers",
+      "sku": "VV-0014",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Trousers",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Trousers"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 145,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Tailored wool trousers with a precise tapered leg.",
+      "shortDescription": "Tailored wool trousers with a precise tapered leg.",
+      "images": {
+        "thumbnail": "/images/products/tapered-wool-trousers/main.png",
+        "main": "/images/products/tapered-wool-trousers/main.png",
+        "gallery": [
+          "/images/products/tapered-wool-trousers/main.png",
+          "/images/products/tapered-wool-trousers/lifestyle.png",
+          "/images/products/tapered-wool-trousers/detail.png"
+        ],
+        "alt": "Tapered Wool Trousers"
+      },
+      "variants": [
+        {
+          "sku": "VV-0014-CHA-S",
+          "size": "S",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-CHA-M",
+          "size": "M",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-CHA-L",
+          "size": "L",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0014-CHA-XL",
+          "size": "XL",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-CHA-XXL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-TAU-S",
+          "size": "S",
+          "color": "Taupe",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-TAU-M",
+          "size": "M",
+          "color": "Taupe",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-TAU-L",
+          "size": "L",
+          "color": "Taupe",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-TAU-XL",
+          "size": "XL",
+          "color": "Taupe",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0014-TAU-XXL",
+          "size": "XXL",
+          "color": "Taupe",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Charcoal",
+        "Taupe"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Linen",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.7,
+      "reviewCount": 116,
+      "badges": [
+        "Best Seller"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 42,
+      "relatedProductIds": [
+        3,
+        11,
+        12,
+        13
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "trousers"
+      ],
+      "seo": {
+        "title": "Tapered Wool Trousers | Vogue Valour",
+        "description": "Tailored wool trousers with a precise tapered leg.",
+        "keywords": [
+          "Tapered Wool Trousers",
+          "Men",
+          "Clothing",
+          "Trousers"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 15,
+      "slug": "suede-bomber-jacket",
+      "name": "Suede Bomber Jacket",
+      "sku": "VV-0015",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Jackets",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Jackets"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 385,
+      "compareAtPrice": 454,
+      "currency": "USD",
+      "description": "Minimal bomber jacket crafted from soft suede.",
+      "shortDescription": "Minimal bomber jacket crafted from soft suede.",
+      "images": {
+        "thumbnail": "/images/products/suede-bomber-jacket/main.png",
+        "main": "/images/products/suede-bomber-jacket/main.png",
+        "gallery": [
+          "/images/products/suede-bomber-jacket/main.png"
+        ],
+        "alt": "Suede Bomber Jacket"
+      },
+      "variants": [
+        {
+          "sku": "VV-0015-TOB-S",
+          "size": "S",
+          "color": "Tobacco",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0015-TOB-M",
+          "size": "M",
+          "color": "Tobacco",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0015-TOB-L",
+          "size": "L",
+          "color": "Tobacco",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0015-TOB-XL",
+          "size": "XL",
+          "color": "Tobacco",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0015-TOB-XXL",
+          "size": "XXL",
+          "color": "Tobacco",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Tobacco"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Leather",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.8,
+      "reviewCount": 123,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": true,
+      "totalStock": 23,
+      "relatedProductIds": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "jackets"
+      ],
+      "seo": {
+        "title": "Suede Bomber Jacket | Vogue Valour",
+        "description": "Minimal bomber jacket crafted from soft suede.",
+        "keywords": [
+          "Suede Bomber Jacket",
+          "Men",
+          "Clothing",
+          "Jackets"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 16,
+      "slug": "premium-cotton-tee",
+      "name": "Premium Cotton Tee",
+      "sku": "VV-0016",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "T-Shirts",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "T-Shirts"
+      ],
+      "brand": "Valour Atelier",
+      "collection": "Autumn Edit 2026",
+      "price": 58,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Heavyweight cotton T-shirt with a refined relaxed fit.",
+      "shortDescription": "Heavyweight cotton T-shirt with a refined relaxed fit.",
+      "images": {
+        "thumbnail": "/images/products/premium-cotton-tee/main.png",
+        "main": "/images/products/premium-cotton-tee/main.png",
+        "gallery": [
+          "/images/products/premium-cotton-tee/main.png",
+          "/images/products/premium-cotton-tee/lifestyle.png",
+          "/images/products/premium-cotton-tee/detail.png"
+        ],
+        "alt": "Premium Cotton Tee"
+      },
+      "variants": [
+        {
+          "sku": "VV-0016-WHI-S",
+          "size": "S",
+          "color": "White",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-WHI-M",
+          "size": "M",
+          "color": "White",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0016-WHI-L",
+          "size": "L",
+          "color": "White",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-WHI-XL",
+          "size": "XL",
+          "color": "White",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-WHI-XXL",
+          "size": "XXL",
+          "color": "White",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-BLA-XXL",
+          "size": "XXL",
+          "color": "Black",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0016-STO-S",
+          "size": "S",
+          "color": "Stone",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-STO-M",
+          "size": "M",
+          "color": "Stone",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-STO-L",
+          "size": "L",
+          "color": "Stone",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-STO-XL",
+          "size": "XL",
+          "color": "Stone",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0016-STO-XXL",
+          "size": "XXL",
+          "color": "Stone",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Black",
+        "Stone",
+        "White"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Cashmere",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.1,
+      "reviewCount": 130,
+      "badges": [
+        "New"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "isSale": false,
+      "totalStock": 57,
+      "relatedProductIds": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "t-shirts"
+      ],
+      "seo": {
+        "title": "Premium Cotton Tee | Vogue Valour",
+        "description": "Heavyweight cotton T-shirt with a refined relaxed fit.",
+        "keywords": [
+          "Premium Cotton Tee",
+          "Men",
+          "Clothing",
+          "T-Shirts"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 17,
+      "slug": "double-breasted-suit-jacket",
+      "name": "Double-Breasted Suit Jacket",
+      "sku": "VV-0017",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Blazers",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Blazers"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 275,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Six-button double-breasted jacket with peak lapels.",
+      "shortDescription": "Six-button double-breasted jacket with peak lapels.",
+      "images": {
+        "thumbnail": "/images/products/double-breasted-suit-jacket/main.png",
+        "main": "/images/products/double-breasted-suit-jacket/main.png",
+        "gallery": [
+          "/images/products/double-breasted-suit-jacket/main.png"
+        ],
+        "alt": "Double-Breasted Suit Jacket"
+      },
+      "variants": [
+        {
+          "sku": "VV-0017-MID-S",
+          "size": "S",
+          "color": "Midnight Navy",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0017-MID-M",
+          "size": "M",
+          "color": "Midnight Navy",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0017-MID-L",
+          "size": "L",
+          "color": "Midnight Navy",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0017-MID-XL",
+          "size": "XL",
+          "color": "Midnight Navy",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0017-MID-XXL",
+          "size": "XXL",
+          "color": "Midnight Navy",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Midnight Navy"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Leather",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.2,
+      "reviewCount": 137,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 24,
+      "relatedProductIds": [
+        2,
+        11,
+        12,
+        13
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "blazers"
+      ],
+      "seo": {
+        "title": "Double-Breasted Suit Jacket | Vogue Valour",
+        "description": "Six-button double-breasted jacket with peak lapels.",
+        "keywords": [
+          "Double-Breasted Suit Jacket",
+          "Men",
+          "Clothing",
+          "Blazers"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 18,
+      "slug": "pleated-tailored-shorts",
+      "name": "Pleated Tailored Shorts",
+      "sku": "VV-0018",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Shorts",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Shorts"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 98,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Knee-length tailored shorts with front pleats.",
+      "shortDescription": "Knee-length tailored shorts with front pleats.",
+      "images": {
+        "thumbnail": "/images/products/pleated-tailored-shorts/main.png",
+        "main": "/images/products/pleated-tailored-shorts/main.png",
+        "gallery": [
+          "/images/products/pleated-tailored-shorts/main.png",
+          "/images/products/pleated-tailored-shorts/lifestyle.png",
+          "/images/products/pleated-tailored-shorts/detail.png"
+        ],
+        "alt": "Pleated Tailored Shorts"
+      },
+      "variants": [
+        {
+          "sku": "VV-0018-STO-S",
+          "size": "S",
+          "color": "Stone",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0018-STO-M",
+          "size": "M",
+          "color": "Stone",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-STO-L",
+          "size": "L",
+          "color": "Stone",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-STO-XL",
+          "size": "XL",
+          "color": "Stone",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-STO-XXL",
+          "size": "XXL",
+          "color": "Stone",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0018-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0018-BLA-XXL",
+          "size": "XXL",
+          "color": "Black",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Black",
+        "Stone"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Linen",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.3,
+      "reviewCount": 144,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 37,
+      "relatedProductIds": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "shorts"
+      ],
+      "seo": {
+        "title": "Pleated Tailored Shorts | Vogue Valour",
+        "description": "Knee-length tailored shorts with front pleats.",
+        "keywords": [
+          "Pleated Tailored Shorts",
+          "Men",
+          "Clothing",
+          "Shorts"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 19,
+      "slug": "cashmere-crewneck",
+      "name": "Cashmere Crewneck",
+      "sku": "VV-0019",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Knitwear",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Knitwear"
+      ],
+      "brand": "Valour Atelier",
+      "collection": "Autumn Edit 2026",
+      "price": 175,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Soft cashmere crewneck designed for year-round layering.",
+      "shortDescription": "Soft cashmere crewneck designed for year-round layering.",
+      "images": {
+        "thumbnail": "/images/products/cashmere-crewneck/main.png",
+        "main": "/images/products/cashmere-crewneck/main.png",
+        "gallery": [
+          "/images/products/cashmere-crewneck/main.png",
+          "/images/products/cashmere-crewneck/lifestyle.png",
+          "/images/products/cashmere-crewneck/detail.png"
+        ],
+        "alt": "Cashmere Crewneck"
+      },
+      "variants": [
+        {
+          "sku": "VV-0019-NAV-S",
+          "size": "S",
+          "color": "Navy",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-NAV-M",
+          "size": "M",
+          "color": "Navy",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-NAV-L",
+          "size": "L",
+          "color": "Navy",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-NAV-XL",
+          "size": "XL",
+          "color": "Navy",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-NAV-XXL",
+          "size": "XXL",
+          "color": "Navy",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0019-HEA-S",
+          "size": "S",
+          "color": "Heather Grey",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-HEA-M",
+          "size": "M",
+          "color": "Heather Grey",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-HEA-L",
+          "size": "L",
+          "color": "Heather Grey",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-HEA-XL",
+          "size": "XL",
+          "color": "Heather Grey",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0019-HEA-XXL",
+          "size": "XXL",
+          "color": "Heather Grey",
+          "volume": null,
+          "stock": 3,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Heather Grey",
+        "Navy"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Silk",
+        "fit": "Regular",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.4,
+      "reviewCount": 151,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 38,
+      "relatedProductIds": [
+        4,
+        13,
+        11,
+        12
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "knitwear"
+      ],
+      "seo": {
+        "title": "Cashmere Crewneck | Vogue Valour",
+        "description": "Soft cashmere crewneck designed for year-round layering.",
+        "keywords": [
+          "Cashmere Crewneck",
+          "Men",
+          "Clothing",
+          "Knitwear"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 20,
+      "slug": "silk-blend-evening-shirt",
+      "name": "Silk-Blend Evening Shirt",
+      "sku": "VV-0020",
+      "status": "active",
+      "gender": "Men",
+      "department": "Clothing",
+      "category": "Shirts",
+      "categoryPath": [
+        "Men",
+        "Clothing",
+        "Shirts"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 155,
+      "compareAtPrice": 183,
+      "currency": "USD",
+      "description": "Fluid silk-blend shirt with concealed front fastening.",
+      "shortDescription": "Fluid silk-blend shirt with concealed front fastening.",
+      "images": {
+        "thumbnail": "/images/products/silk-blend-evening-shirt/main.png",
+        "main": "/images/products/silk-blend-evening-shirt/main.png",
+        "gallery": [
+          "/images/products/silk-blend-evening-shirt/main.png",
+          "/images/products/silk-blend-evening-shirt/lifestyle.png",
+          "/images/products/silk-blend-evening-shirt/detail.png"
+        ],
+        "alt": "Silk-Blend Evening Shirt"
+      },
+      "variants": [
+        {
+          "sku": "VV-0020-BLA-S",
+          "size": "S",
+          "color": "Black",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "volume": null,
+          "stock": 6,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "volume": null,
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-BLA-XXL",
+          "size": "XXL",
+          "color": "Black",
+          "volume": null,
+          "stock": 1,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-DEE-S",
+          "size": "S",
+          "color": "Deep Plum",
+          "volume": null,
+          "stock": 5,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-DEE-M",
+          "size": "M",
+          "color": "Deep Plum",
+          "volume": null,
+          "stock": 7,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-DEE-L",
+          "size": "L",
+          "color": "Deep Plum",
+          "volume": null,
+          "stock": 0,
+          "priceDelta": 0,
+          "isAvailable": false
+        },
+        {
+          "sku": "VV-0020-DEE-XL",
+          "size": "XL",
+          "color": "Deep Plum",
+          "volume": null,
+          "stock": 2,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0020-DEE-XXL",
+          "size": "XXL",
+          "color": "Deep Plum",
+          "volume": null,
+          "stock": 4,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "L",
+        "M",
+        "S",
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "Black",
+        "Deep Plum"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "men-apparel",
+      "attributes": {
+        "material": "Linen",
+        "fit": "Relaxed",
+        "care": [
+          "Dry clean recommended",
+          "Do not tumble dry"
+        ],
+        "season": [
+          "Spring",
+          "Autumn"
+        ],
+        "occasion": [
+          "Casual",
+          "Smart Casual"
+        ]
+      },
+      "rating": 4.5,
+      "reviewCount": 158,
+      "badges": [
+        "New"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "isSale": true,
+      "totalStock": 39,
+      "relatedProductIds": [
+        12,
+        11,
+        13,
+        14
+      ],
+      "crossSellProductIds": [
+        21,
+        22,
+        23
+      ],
+      "tags": [
+        "men",
+        "clothing",
+        "shirts"
+      ],
+      "seo": {
+        "title": "Silk-Blend Evening Shirt | Vogue Valour",
+        "description": "Fluid silk-blend shirt with concealed front fastening.",
+        "keywords": [
+          "Silk-Blend Evening Shirt",
+          "Men",
+          "Clothing",
+          "Shirts"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 21,
+      "slug": "noir-oud-eau-de-parfum",
+      "name": "Noir Oud Eau de Parfum",
+      "sku": "VV-0021",
+      "status": "active",
+      "gender": "Men",
+      "department": "Fragrance",
+      "category": "Eau de Parfum",
+      "categoryPath": [
+        "Men",
+        "Fragrance",
+        "Eau de Parfum"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 175,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "A rich composition of oud, leather and smoked amber.",
+      "shortDescription": "A rich composition of oud, leather and smoked amber.",
+      "images": {
+        "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuAOsBvwO7tcahcVuvxzbZK9OrlBNS2Ns6b6DuvrCGURdQmegNfDamnt7oR3KQW59FK2w5jrVDACFjBb7N6eemDEwhwet9IjEmECf8tpgLorYrf7OqeSIB3F9Wnu_vcJBsaAhKHoxF2ijMPJ-Ht0FVTrxFK49VUG2dHmQdXvlbNf3f6FdCFumfQBfZ6pcwf6vvU--XaCYwjowY_r6diKXQf9Veb0lXHKpZFGzH7VyY73pNmuxBitUWwd",
+        "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuAOsBvwO7tcahcVuvxzbZK9OrlBNS2Ns6b6DuvrCGURdQmegNfDamnt7oR3KQW59FK2w5jrVDACFjBb7N6eemDEwhwet9IjEmECf8tpgLorYrf7OqeSIB3F9Wnu_vcJBsaAhKHoxF2ijMPJ-Ht0FVTrxFK49VUG2dHmQdXvlbNf3f6FdCFumfQBfZ6pcwf6vvU--XaCYwjowY_r6diKXQf9Veb0lXHKpZFGzH7VyY73pNmuxBitUWwd",
+        "gallery": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuAOsBvwO7tcahcVuvxzbZK9OrlBNS2Ns6b6DuvrCGURdQmegNfDamnt7oR3KQW59FK2w5jrVDACFjBb7N6eemDEwhwet9IjEmECf8tpgLorYrf7OqeSIB3F9Wnu_vcJBsaAhKHoxF2ijMPJ-Ht0FVTrxFK49VUG2dHmQdXvlbNf3f6FdCFumfQBfZ6pcwf6vvU--XaCYwjowY_r6diKXQf9Veb0lXHKpZFGzH7VyY73pNmuxBitUWwd"
+        ],
+        "alt": "Noir Oud Eau de Parfum"
+      },
+      "variants": [
+        {
+          "sku": "VV-0021-50",
+          "size": null,
+          "color": null,
+          "volume": "50ml",
+          "stock": 8,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0021-100",
+          "size": null,
+          "color": null,
+          "volume": "100ml",
+          "stock": 6,
+          "priceDelta": 55,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [],
+      "availableVolumes": [
+        "100ml",
+        "50ml"
+      ],
+      "sizeGuideId": null,
+      "attributes": {
+        "concentration": "Eau de Parfum",
+        "fragranceFamily": [
+          "Woody",
+          "Amber"
+        ],
+        "topNotes": [
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heartNotes": [
+          "Vetiver",
+          "Leather"
+        ],
+        "baseNotes": [
+          "Amber",
+          "Musk",
+          "Sandalwood"
+        ],
+        "season": [
+          "Autumn",
+          "Winter"
+        ],
+        "occasion": [
+          "Evening",
+          "Formal"
+        ]
+      },
+      "rating": 4.6,
+      "reviewCount": 165,
+      "badges": [
+        "Best Seller"
+      ],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 14,
+      "relatedProductIds": [
+        22,
+        24,
+        26,
+        23
+      ],
+      "crossSellProductIds": [
+        11,
+        12,
+        13
+      ],
+      "tags": [
+        "men",
+        "fragrance",
+        "eau-de-parfum"
+      ],
+      "seo": {
+        "title": "Noir Oud Eau de Parfum | Vogue Valour",
+        "description": "A rich composition of oud, leather and smoked amber.",
+        "keywords": [
+          "Noir Oud Eau de Parfum",
+          "Men",
+          "Fragrance",
+          "Eau de Parfum"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 22,
+      "slug": "vetiver-mineral-eau-de-parfum",
+      "name": "Vetiver Mineral Eau de Parfum",
+      "sku": "VV-0022",
+      "status": "active",
+      "gender": "Men",
+      "department": "Fragrance",
+      "category": "Eau de Parfum",
+      "categoryPath": [
+        "Men",
+        "Fragrance",
+        "Eau de Parfum"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 150,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Mineral vetiver balanced by cedar and cool citrus.",
+      "shortDescription": "Mineral vetiver balanced by cedar and cool citrus.",
+      "images": {
+        "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCoj4lGYaNWRqWEZewMVl0w2MfMRfsh4mYzECOKfRnGsWd10hB-3n7ygcWQHx1CxhFqR0J95foGIIbxWnauyYGcyZpbWK1OFvXRKaOs6770U4HLLfECyBhEbNteiEdw1gLqzHOgeztFU60w6wA6-R8yMW_VoD4MDBPF7T7LMuOVYi-e0xqr58zNpih_zEsbujIZBGzYqr-EklO6_9mJtm_G3N7jC_S0mwOEsv3Numi5EhXTIiBcTrun",
+        "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuCoj4lGYaNWRqWEZewMVl0w2MfMRfsh4mYzECOKfRnGsWd10hB-3n7ygcWQHx1CxhFqR0J95foGIIbxWnauyYGcyZpbWK1OFvXRKaOs6770U4HLLfECyBhEbNteiEdw1gLqzHOgeztFU60w6wA6-R8yMW_VoD4MDBPF7T7LMuOVYi-e0xqr58zNpih_zEsbujIZBGzYqr-EklO6_9mJtm_G3N7jC_S0mwOEsv3Numi5EhXTIiBcTrun",
+        "gallery": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuCoj4lGYaNWRqWEZewMVl0w2MfMRfsh4mYzECOKfRnGsWd10hB-3n7ygcWQHx1CxhFqR0J95foGIIbxWnauyYGcyZpbWK1OFvXRKaOs6770U4HLLfECyBhEbNteiEdw1gLqzHOgeztFU60w6wA6-R8yMW_VoD4MDBPF7T7LMuOVYi-e0xqr58zNpih_zEsbujIZBGzYqr-EklO6_9mJtm_G3N7jC_S0mwOEsv3Numi5EhXTIiBcTrun"
+        ],
+        "alt": "Vetiver Mineral Eau de Parfum"
+      },
+      "variants": [
+        {
+          "sku": "VV-0022-50",
+          "size": null,
+          "color": null,
+          "volume": "50ml",
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0022-100",
+          "size": null,
+          "color": null,
+          "volume": "100ml",
+          "stock": 7,
+          "priceDelta": 55,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [],
+      "availableVolumes": [
+        "100ml",
+        "50ml"
+      ],
+      "sizeGuideId": null,
+      "attributes": {
+        "concentration": "Eau de Parfum",
+        "fragranceFamily": [
+          "Woody",
+          "Amber"
+        ],
+        "topNotes": [
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heartNotes": [
+          "Vetiver",
+          "Leather"
+        ],
+        "baseNotes": [
+          "Amber",
+          "Musk",
+          "Sandalwood"
+        ],
+        "season": [
+          "Autumn",
+          "Winter"
+        ],
+        "occasion": [
+          "Evening",
+          "Formal"
+        ]
+      },
+      "rating": 4.7,
+      "reviewCount": 172,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 16,
+      "relatedProductIds": [
+        21,
+        24,
+        26,
+        23
+      ],
+      "crossSellProductIds": [
+        11,
+        12,
+        13
+      ],
+      "tags": [
+        "men",
+        "fragrance",
+        "eau-de-parfum"
+      ],
+      "seo": {
+        "title": "Vetiver Mineral Eau de Parfum | Vogue Valour",
+        "description": "Mineral vetiver balanced by cedar and cool citrus.",
+        "keywords": [
+          "Vetiver Mineral Eau de Parfum",
+          "Men",
+          "Fragrance",
+          "Eau de Parfum"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 23,
+      "slug": "atlas-wood-parfum",
+      "name": "Atlas Wood Parfum",
+      "sku": "VV-0023",
+      "status": "active",
+      "gender": "Men",
+      "department": "Fragrance",
+      "category": "Parfum",
+      "categoryPath": [
+        "Men",
+        "Fragrance",
+        "Parfum"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 210,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Concentrated woods with saffron, incense and dry amber.",
+      "shortDescription": "Concentrated woods with saffron, incense and dry amber.",
+      "images": {
+        "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvhHWJdIfQZT_2dtDZYovXhw3HDUwbHNcrxXgK1UrZeESwGXrIkItrPwUwnorINWPi8bcxjynotpbiPS-nOd30G5bqT0v18zU2PZFqV18SO0l-uupF87dzqBa9OkBl28jPtL-NOxx0q2Hnn_YOMtJpdhaFqMifr9S45plrAIU1Av-3IfSwm57HMgBSjBgiml-RoKppDkzjydRSwZrptHg32GYGsgGtbgFCjjdHRt_a16Zj-plKfVP-",
+        "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvhHWJdIfQZT_2dtDZYovXhw3HDUwbHNcrxXgK1UrZeESwGXrIkItrPwUwnorINWPi8bcxjynotpbiPS-nOd30G5bqT0v18zU2PZFqV18SO0l-uupF87dzqBa9OkBl28jPtL-NOxx0q2Hnn_YOMtJpdhaFqMifr9S45plrAIU1Av-3IfSwm57HMgBSjBgiml-RoKppDkzjydRSwZrptHg32GYGsgGtbgFCjjdHRt_a16Zj-plKfVP-",
+        "gallery": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuAvhHWJdIfQZT_2dtDZYovXhw3HDUwbHNcrxXgK1UrZeESwGXrIkItrPwUwnorINWPi8bcxjynotpbiPS-nOd30G5bqT0v18zU2PZFqV18SO0l-uupF87dzqBa9OkBl28jPtL-NOxx0q2Hnn_YOMtJpdhaFqMifr9S45plrAIU1Av-3IfSwm57HMgBSjBgiml-RoKppDkzjydRSwZrptHg32GYGsgGtbgFCjjdHRt_a16Zj-plKfVP-"
+        ],
+        "alt": "Atlas Wood Parfum"
+      },
+      "variants": [
+        {
+          "sku": "VV-0023-50",
+          "size": null,
+          "color": null,
+          "volume": "50ml",
+          "stock": 10,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0023-100",
+          "size": null,
+          "color": null,
+          "volume": "100ml",
+          "stock": 8,
+          "priceDelta": 55,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [],
+      "availableVolumes": [
+        "100ml",
+        "50ml"
+      ],
+      "sizeGuideId": null,
+      "attributes": {
+        "concentration": "Parfum",
+        "fragranceFamily": [
+          "Woody",
+          "Amber"
+        ],
+        "topNotes": [
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heartNotes": [
+          "Vetiver",
+          "Leather"
+        ],
+        "baseNotes": [
+          "Amber",
+          "Musk",
+          "Sandalwood"
+        ],
+        "season": [
+          "Autumn",
+          "Winter"
+        ],
+        "occasion": [
+          "Evening",
+          "Formal"
+        ]
+      },
+      "rating": 4.8,
+      "reviewCount": 179,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 18,
+      "relatedProductIds": [
+        25,
+        21,
+        22
+      ],
+      "crossSellProductIds": [
+        11,
+        12,
+        13
+      ],
+      "tags": [
+        "men",
+        "fragrance",
+        "parfum"
+      ],
+      "seo": {
+        "title": "Atlas Wood Parfum | Vogue Valour",
+        "description": "Concentrated woods with saffron, incense and dry amber.",
+        "keywords": [
+          "Atlas Wood Parfum",
+          "Men",
+          "Fragrance",
+          "Parfum"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 24,
+      "slug": "rose-velours-eau-de-parfum",
+      "name": "Rose Velours Eau de Parfum",
+      "sku": "VV-0024",
+      "status": "active",
+      "gender": "Women",
+      "department": "Fragrance",
+      "category": "Eau de Parfum",
+      "categoryPath": [
+        "Women",
+        "Fragrance",
+        "Eau de Parfum"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 165,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Velvety rose, plum and soft musk with a warm finish.",
+      "shortDescription": "Velvety rose, plum and soft musk with a warm finish.",
+      "images": {
+        "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCb9gRy_iy8esoBE3WG6J60u_YlNj5is1FAEO6EJ98mHN_R9VcIsSUwasCHgnPU3DzbtIzeFoxAQ0AgiQoGlH1UE-XFbAmCRhVflGdDTM8VK97gIUaollmBgtDFnJNbwvRA0leJAmJfDxWhdmjepXQLJIrknzQTgRb07aTeDaGpQf2L8M4cFTPJeC9OkRv89N-24hg_bEwrPGcFbXPufbauWs-tHl_Qbo5IQ1XxkviQaq26LK9drAq6",
+        "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuCb9gRy_iy8esoBE3WG6J60u_YlNj5is1FAEO6EJ98mHN_R9VcIsSUwasCHgnPU3DzbtIzeFoxAQ0AgiQoGlH1UE-XFbAmCRhVflGdDTM8VK97gIUaollmBgtDFnJNbwvRA0leJAmJfDxWhdmjepXQLJIrknzQTgRb07aTeDaGpQf2L8M4cFTPJeC9OkRv89N-24hg_bEwrPGcFbXPufbauWs-tHl_Qbo5IQ1XxkviQaq26LK9drAq6",
+        "gallery": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuCb9gRy_iy8esoBE3WG6J60u_YlNj5is1FAEO6EJ98mHN_R9VcIsSUwasCHgnPU3DzbtIzeFoxAQ0AgiQoGlH1UE-XFbAmCRhVflGdDTM8VK97gIUaollmBgtDFnJNbwvRA0leJAmJfDxWhdmjepXQLJIrknzQTgRb07aTeDaGpQf2L8M4cFTPJeC9OkRv89N-24hg_bEwrPGcFbXPufbauWs-tHl_Qbo5IQ1XxkviQaq26LK9drAq6"
+        ],
+        "alt": "Rose Velours Eau de Parfum"
+      },
+      "variants": [
+        {
+          "sku": "VV-0024-50",
+          "size": null,
+          "color": null,
+          "volume": "50ml",
+          "stock": 11,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0024-100",
+          "size": null,
+          "color": null,
+          "volume": "100ml",
+          "stock": 9,
+          "priceDelta": 55,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [],
+      "availableVolumes": [
+        "100ml",
+        "50ml"
+      ],
+      "sizeGuideId": null,
+      "attributes": {
+        "concentration": "Eau de Parfum",
+        "fragranceFamily": [
+          "Floral",
+          "Amber"
+        ],
+        "topNotes": [
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heartNotes": [
+          "Rose",
+          "Iris"
+        ],
+        "baseNotes": [
+          "Amber",
+          "Musk",
+          "Sandalwood"
+        ],
+        "season": [
+          "Autumn",
+          "Winter"
+        ],
+        "occasion": [
+          "Evening",
+          "Formal"
+        ]
+      },
+      "rating": 4.1,
+      "reviewCount": 186,
+      "badges": [
+        "New"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "isSale": false,
+      "totalStock": 20,
+      "relatedProductIds": [
+        21,
+        22,
+        26,
+        25
+      ],
+      "crossSellProductIds": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "women",
+        "fragrance",
+        "eau-de-parfum"
+      ],
+      "seo": {
+        "title": "Rose Velours Eau de Parfum | Vogue Valour",
+        "description": "Velvety rose, plum and soft musk with a warm finish.",
+        "keywords": [
+          "Rose Velours Eau de Parfum",
+          "Women",
+          "Fragrance",
+          "Eau de Parfum"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 25,
+      "slug": "iris-lumiere-parfum",
+      "name": "Iris Lumière Parfum",
+      "sku": "VV-0025",
+      "status": "active",
+      "gender": "Women",
+      "department": "Fragrance",
+      "category": "Parfum",
+      "categoryPath": [
+        "Women",
+        "Fragrance",
+        "Parfum"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 220,
+      "compareAtPrice": 260,
+      "currency": "USD",
+      "description": "Powdered iris illuminated by violet leaf and sandalwood.",
+      "shortDescription": "Powdered iris illuminated by violet leaf and sandalwood.",
+      "images": {
+        "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuB7wxmQIgSTPK7yRaGUhbkFTNTuOLNewjFeLPLiJQyrjKBfSDWU2QxNkrWrdGh57bVcO2mzih6FiSIFbxpnliHGaVhRCs4VwZ1mBPHd5_KWgh8YUK3sqBG90ma93WUUq-TSqe3GwMnswuI3ljam_K6CntPj1MQ12DH5TeQsReHq7yHe9myzt5QgocopWLK9E-qquE4XJz_yQI33_aDVhXKAoYRZhOgnyg8mAl8o39IivjSmNSKy1XxG",
+        "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuB7wxmQIgSTPK7yRaGUhbkFTNTuOLNewjFeLPLiJQyrjKBfSDWU2QxNkrWrdGh57bVcO2mzih6FiSIFbxpnliHGaVhRCs4VwZ1mBPHd5_KWgh8YUK3sqBG90ma93WUUq-TSqe3GwMnswuI3ljam_K6CntPj1MQ12DH5TeQsReHq7yHe9myzt5QgocopWLK9E-qquE4XJz_yQI33_aDVhXKAoYRZhOgnyg8mAl8o39IivjSmNSKy1XxG",
+        "gallery": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuB7wxmQIgSTPK7yRaGUhbkFTNTuOLNewjFeLPLiJQyrjKBfSDWU2QxNkrWrdGh57bVcO2mzih6FiSIFbxpnliHGaVhRCs4VwZ1mBPHd5_KWgh8YUK3sqBG90ma93WUUq-TSqe3GwMnswuI3ljam_K6CntPj1MQ12DH5TeQsReHq7yHe9myzt5QgocopWLK9E-qquE4XJz_yQI33_aDVhXKAoYRZhOgnyg8mAl8o39IivjSmNSKy1XxG"
+        ],
+        "alt": "Iris Lumière Parfum"
+      },
+      "variants": [
+        {
+          "sku": "VV-0025-50",
+          "size": null,
+          "color": null,
+          "volume": "50ml",
+          "stock": 12,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0025-100",
+          "size": null,
+          "color": null,
+          "volume": "100ml",
+          "stock": 5,
+          "priceDelta": 55,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [],
+      "availableVolumes": [
+        "100ml",
+        "50ml"
+      ],
+      "sizeGuideId": null,
+      "attributes": {
+        "concentration": "Parfum",
+        "fragranceFamily": [
+          "Floral",
+          "Amber"
+        ],
+        "topNotes": [
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heartNotes": [
+          "Rose",
+          "Iris"
+        ],
+        "baseNotes": [
+          "Amber",
+          "Musk",
+          "Sandalwood"
+        ],
+        "season": [
+          "Autumn",
+          "Winter"
+        ],
+        "occasion": [
+          "Evening",
+          "Formal"
+        ]
+      },
+      "rating": 4.2,
+      "reviewCount": 193,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": true,
+      "totalStock": 17,
+      "relatedProductIds": [
+        23,
+        24,
+        26
+      ],
+      "crossSellProductIds": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "women",
+        "fragrance",
+        "parfum"
+      ],
+      "seo": {
+        "title": "Iris Lumière Parfum | Vogue Valour",
+        "description": "Powdered iris illuminated by violet leaf and sandalwood.",
+        "keywords": [
+          "Iris Lumière Parfum",
+          "Women",
+          "Fragrance",
+          "Parfum"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 26,
+      "slug": "ambre-satin-eau-de-parfum",
+      "name": "Ambre Satin Eau de Parfum",
+      "sku": "VV-0026",
+      "status": "active",
+      "gender": "Women",
+      "department": "Fragrance",
+      "category": "Eau de Parfum",
+      "categoryPath": [
+        "Women",
+        "Fragrance",
+        "Eau de Parfum"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 180,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "A sensual amber fragrance softened with vanilla and suede.",
+      "shortDescription": "A sensual amber fragrance softened with vanilla and suede.",
+      "images": {
+        "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCKP_6rIexAY4Nrx0BVpHs_LRA2s2w7QJiZPy3VvJosajD6g5hV8MebhFKM99v6c2FFMNTwQoVBRuq_lqSqY-u-NtLko27fCy9j-jeCK22q-7tNKjHc4t4_Fzin-uhk3t_0Nbz71R97v65CZEUr3sK3FXB6GRmonKtyDD7zHsy12iuaa89oNM9a73ikZmPGqEh3RXLDAoLjbyScp3JxnoiDIzIYfyuthVBdFXJEICUXrhQDiYf3f5HW",
+        "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuCKP_6rIexAY4Nrx0BVpHs_LRA2s2w7QJiZPy3VvJosajD6g5hV8MebhFKM99v6c2FFMNTwQoVBRuq_lqSqY-u-NtLko27fCy9j-jeCK22q-7tNKjHc4t4_Fzin-uhk3t_0Nbz71R97v65CZEUr3sK3FXB6GRmonKtyDD7zHsy12iuaa89oNM9a73ikZmPGqEh3RXLDAoLjbyScp3JxnoiDIzIYfyuthVBdFXJEICUXrhQDiYf3f5HW",
+        "gallery": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuCKP_6rIexAY4Nrx0BVpHs_LRA2s2w7QJiZPy3VvJosajD6g5hV8MebhFKM99v6c2FFMNTwQoVBRuq_lqSqY-u-NtLko27fCy9j-jeCK22q-7tNKjHc4t4_Fzin-uhk3t_0Nbz71R97v65CZEUr3sK3FXB6GRmonKtyDD7zHsy12iuaa89oNM9a73ikZmPGqEh3RXLDAoLjbyScp3JxnoiDIzIYfyuthVBdFXJEICUXrhQDiYf3f5HW"
+        ],
+        "alt": "Ambre Satin Eau de Parfum"
+      },
+      "variants": [
+        {
+          "sku": "VV-0026-50",
+          "size": null,
+          "color": null,
+          "volume": "50ml",
+          "stock": 13,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0026-100",
+          "size": null,
+          "color": null,
+          "volume": "100ml",
+          "stock": 6,
+          "priceDelta": 55,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [],
+      "availableVolumes": [
+        "100ml",
+        "50ml"
+      ],
+      "sizeGuideId": null,
+      "attributes": {
+        "concentration": "Eau de Parfum",
+        "fragranceFamily": [
+          "Floral",
+          "Amber"
+        ],
+        "topNotes": [
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heartNotes": [
+          "Rose",
+          "Iris"
+        ],
+        "baseNotes": [
+          "Amber",
+          "Musk",
+          "Sandalwood"
+        ],
+        "season": [
+          "Autumn",
+          "Winter"
+        ],
+        "occasion": [
+          "Evening",
+          "Formal"
+        ]
+      },
+      "rating": 4.3,
+      "reviewCount": 200,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 19,
+      "relatedProductIds": [
+        21,
+        22,
+        24,
+        25
+      ],
+      "crossSellProductIds": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "women",
+        "fragrance",
+        "eau-de-parfum"
+      ],
+      "seo": {
+        "title": "Ambre Satin Eau de Parfum | Vogue Valour",
+        "description": "A sensual amber fragrance softened with vanilla and suede.",
+        "keywords": [
+          "Ambre Satin Eau de Parfum",
+          "Women",
+          "Fragrance",
+          "Eau de Parfum"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 27,
+      "slug": "architectural-leather-tote",
+      "name": "Architectural Leather Tote",
+      "sku": "VV-0027",
+      "status": "active",
+      "gender": "Women",
+      "department": "Accessories",
+      "category": "Bags",
+      "categoryPath": [
+        "Women",
+        "Accessories",
+        "Bags"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 295,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Structured leather tote with a spacious suede-lined interior.",
+      "shortDescription": "Structured leather tote with a spacious suede-lined interior.",
+      "images": {
+        "thumbnail": "/images/products/architectural-leather-tote/main.png",
+        "main": "/images/products/architectural-leather-tote/main.png",
+        "gallery": [
+          "/images/products/architectural-leather-tote/main.png",
+          "/images/products/architectural-leather-tote/detail.png",
+          "/images/products/architectural-leather-tote/lifestyle.png"
+        ],
+        "alt": "Architectural Leather Tote"
+      },
+      "variants": [
+        {
+          "sku": "VV-0027-BLA",
+          "size": null,
+          "color": "Black",
+          "volume": null,
+          "stock": 10,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0027-BUR",
+          "size": null,
+          "color": "Burgundy",
+          "volume": null,
+          "stock": 10,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [
+        "Black",
+        "Burgundy"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": null,
+      "attributes": {
+        "material": "Leather",
+        "care": [
+          "Store in dust bag",
+          "Avoid prolonged moisture"
+        ],
+        "occasion": [
+          "Everyday",
+          "Travel"
+        ]
+      },
+      "rating": 4.4,
+      "reviewCount": 207,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 20,
+      "relatedProductIds": [
+        30,
+        28,
+        29
+      ],
+      "crossSellProductIds": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "women",
+        "accessories",
+        "bags"
+      ],
+      "seo": {
+        "title": "Architectural Leather Tote | Vogue Valour",
+        "description": "Structured leather tote with a spacious suede-lined interior.",
+        "keywords": [
+          "Architectural Leather Tote",
+          "Women",
+          "Accessories",
+          "Bags"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 28,
+      "slug": "minimal-leather-belt",
+      "name": "Minimal Leather Belt",
+      "sku": "VV-0028",
+      "status": "active",
+      "gender": "Unisex",
+      "department": "Accessories",
+      "category": "Belts",
+      "categoryPath": [
+        "Unisex",
+        "Accessories",
+        "Belts"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 95,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Italian leather belt with a brushed metal buckle.",
+      "shortDescription": "Italian leather belt with a brushed metal buckle.",
+      "images": {
+        "thumbnail": "/images/products/minimal-leather-belt/main.png",
+        "main": "/images/products/minimal-leather-belt/main.png",
+        "gallery": [
+          "/images/products/minimal-leather-belt/main.png",
+          "/images/products/minimal-leather-belt/detail.png",
+          "/images/products/minimal-leather-belt/lifestyle.png"
+        ],
+        "alt": "Minimal Leather Belt"
+      },
+      "variants": [
+        {
+          "sku": "VV-0028-BLA-80",
+          "size": "80",
+          "color": "Black",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-COG-80",
+          "size": "80",
+          "color": "Cognac",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-BLA-85",
+          "size": "85",
+          "color": "Black",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-COG-85",
+          "size": "85",
+          "color": "Cognac",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-BLA-90",
+          "size": "90",
+          "color": "Black",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-COG-90",
+          "size": "90",
+          "color": "Cognac",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-BLA-95",
+          "size": "95",
+          "color": "Black",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-COG-95",
+          "size": "95",
+          "color": "Cognac",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-BLA-100",
+          "size": "100",
+          "color": "Black",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-COG-100",
+          "size": "100",
+          "color": "Cognac",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-BLA-105",
+          "size": "105",
+          "color": "Black",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0028-COG-105",
+          "size": "105",
+          "color": "Cognac",
+          "volume": null,
+          "stock": 9,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [
+        "100",
+        "105",
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "availableColors": [
+        "Black",
+        "Cognac"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": "belt-size",
+      "attributes": {
+        "material": "Leather",
+        "care": [
+          "Store in dust bag",
+          "Avoid prolonged moisture"
+        ],
+        "occasion": [
+          "Everyday",
+          "Travel"
+        ]
+      },
+      "rating": 4.5,
+      "reviewCount": 214,
+      "badges": [
+        "New",
+        "Best Seller"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "isSale": false,
+      "totalStock": 108,
+      "relatedProductIds": [
+        27,
+        29,
+        30
+      ],
+      "crossSellProductIds": [],
+      "tags": [
+        "unisex",
+        "accessories",
+        "belts"
+      ],
+      "seo": {
+        "title": "Minimal Leather Belt | Vogue Valour",
+        "description": "Italian leather belt with a brushed metal buckle.",
+        "keywords": [
+          "Minimal Leather Belt",
+          "Unisex",
+          "Accessories",
+          "Belts"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 29,
+      "slug": "silk-signature-scarf",
+      "name": "Silk Signature Scarf",
+      "sku": "VV-0029",
+      "status": "active",
+      "gender": "Women",
+      "department": "Accessories",
+      "category": "Scarves",
+      "categoryPath": [
+        "Women",
+        "Accessories",
+        "Scarves"
+      ],
+      "brand": "Vogue Valour",
+      "collection": "Autumn Edit 2026",
+      "price": 110,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "description": "Printed silk twill scarf with hand-rolled edges.",
+      "shortDescription": "Printed silk twill scarf with hand-rolled edges.",
+      "images": {
+        "thumbnail": "/images/products/silk-signature-scarf/main.png",
+        "main": "/images/products/silk-signature-scarf/main.png",
+        "gallery": [
+          "/images/products/silk-signature-scarf/main.png"
+        ],
+        "alt": "Silk Signature Scarf"
+      },
+      "variants": [
+        {
+          "sku": "VV-0029-IVO",
+          "size": null,
+          "color": "Ivory Print",
+          "volume": null,
+          "stock": 12,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0029-MID",
+          "size": null,
+          "color": "Midnight Print",
+          "volume": null,
+          "stock": 12,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [
+        "Ivory Print",
+        "Midnight Print"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": null,
+      "attributes": {
+        "material": "Silk",
+        "care": [
+          "Store in dust bag",
+          "Avoid prolonged moisture"
+        ],
+        "occasion": [
+          "Everyday",
+          "Travel"
+        ]
+      },
+      "rating": 4.6,
+      "reviewCount": 221,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": false,
+      "totalStock": 24,
+      "relatedProductIds": [
+        27,
+        28
+      ],
+      "crossSellProductIds": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "women",
+        "accessories",
+        "scarves"
+      ],
+      "seo": {
+        "title": "Silk Signature Scarf | Vogue Valour",
+        "description": "Printed silk twill scarf with hand-rolled edges.",
+        "keywords": [
+          "Silk Signature Scarf",
+          "Women",
+          "Accessories",
+          "Scarves"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    },
+    {
+      "id": 30,
+      "slug": "classic-leather-weekender",
+      "name": "Classic Leather Weekender",
+      "sku": "VV-0030",
+      "status": "active",
+      "gender": "Men",
+      "department": "Accessories",
+      "category": "Bags",
+      "categoryPath": [
+        "Men",
+        "Accessories",
+        "Bags"
+      ],
+      "brand": "Maison Noir",
+      "collection": "Autumn Edit 2026",
+      "price": 340,
+      "compareAtPrice": 401,
+      "currency": "USD",
+      "description": "Full-grain leather weekender designed for short trips.",
+      "shortDescription": "Full-grain leather weekender designed for short trips.",
+      "images": {
+        "thumbnail": "/images/products/classic-leather-weekender/main.png",
+        "main": "/images/products/classic-leather-weekender/main.png",
+        "gallery": [
+          "/images/products/classic-leather-weekender/main.png",
+          "/images/products/classic-leather-weekender/detail.png",
+          "/images/products/classic-leather-weekender/lifestyle.png"
+        ],
+        "alt": "Classic Leather Weekender"
+      },
+      "variants": [
+        {
+          "sku": "VV-0030-ESP",
+          "size": null,
+          "color": "Espresso",
+          "volume": null,
+          "stock": 13,
+          "priceDelta": 0,
+          "isAvailable": true
+        },
+        {
+          "sku": "VV-0030-BLA",
+          "size": null,
+          "color": "Black",
+          "volume": null,
+          "stock": 13,
+          "priceDelta": 0,
+          "isAvailable": true
+        }
+      ],
+      "availableSizes": [],
+      "availableColors": [
+        "Black",
+        "Espresso"
+      ],
+      "availableVolumes": [],
+      "sizeGuideId": null,
+      "attributes": {
+        "material": "Leather",
+        "care": [
+          "Store in dust bag",
+          "Avoid prolonged moisture"
+        ],
+        "occasion": [
+          "Everyday",
+          "Travel"
+        ]
+      },
+      "rating": 4.7,
+      "reviewCount": 228,
+      "badges": [],
+      "isFeatured": false,
+      "isNew": false,
+      "isSale": true,
+      "totalStock": 26,
+      "relatedProductIds": [
+        27,
+        28
+      ],
+      "crossSellProductIds": [
+        11,
+        12,
+        13
+      ],
+      "tags": [
+        "men",
+        "accessories",
+        "bags"
+      ],
+      "seo": {
+        "title": "Classic Leather Weekender | Vogue Valour",
+        "description": "Full-grain leather weekender designed for short trips.",
+        "keywords": [
+          "Classic Leather Weekender",
+          "Men",
+          "Accessories",
+          "Bags"
+        ]
+      },
+      "source": {
+        "type": "catalog-completion",
+        "note": "Added to complete the fashion catalog and dynamic product-detail requirements."
+      }
+    }
+  ],
+
+  
+  "designers": [
+    {
+      "id": 1,
+      "name": "Elias Thorne",
+      "specialty": "Architectural Tailoring",
+      "image": "/images/bts/master-tailor.png"
+    },
+    {
+      "id": 2,
+      "name": "Maren Valour",
+      "specialty": "Fluid Silks & Satin",
+      "image": "/images/bts/handcrafted.png"
+    },
+    {
+      "id": 3,
+      "name": "Aura Atelier",
+      "specialty": "Technical Modernism",
+      "image": "/images/bts/designer-workshop.png"
+    },
+    {
+      "id": 4,
+      "name": "Heritage House",
+      "specialty": "Classic Legacy",
+      "image": "/images/bts/fashion-designer.png"
+    }
+  ],
+  
+  "journal": {
+  "featured": {
+    "issue": "Issue 04",
+    "title": "The Solstice Edition",
+    "description": "A journey through light and shadow.",
+    "image": "/images/lookbook/lookbook-01.png"
+  },
+
+  "stories": [
+  {
+    "id": 1,
+    "category": "Culture",
+    "readTime": "5 Min Read",
+    "title": "Paris After Dark: The Evolution of the Night Wardrobe",
+    "description": "Exploring how the city of lights continues to influence evening elegance in 2024.",
+    "image": "/images/lookbook/lookbook-02.png",
+    "content": "As the sun sets over Paris, the city reveals another side of its fashion identity. Evening dressing has always been closely connected to the rhythm of Parisian life, where elegance rarely feels forced and sophistication often comes through simplicity. From the quiet streets of Saint-Germain to the illuminated avenues along the Seine, the night becomes a natural stage for expressive silhouettes, refined fabrics, and thoughtful details.\n\nThe modern night wardrobe is moving away from rigid rules. Tailored coats are paired with fluid dresses, structured jackets meet delicate fabrics, and traditional evening pieces are reinterpreted through contemporary proportions. Designers are increasingly focusing on versatility, creating garments that transition naturally from dinner to late-night gatherings.\n\nWhat makes Parisian evening style enduring is its balance. There is an appreciation for craftsmanship without excessive decoration, and confidence without the need for extravagance. In this sense, the city continues to influence a new generation of luxury dressing: thoughtful, personal, and effortlessly sophisticated."
+  },
+  {
+    "id": 2,
+    "category": "Sustainability",
+    "readTime": "8 Min Read",
+    "title": "The Ethical Silk: Redefining Sustainable Luxury",
+    "description": "Inside the labs and farms producing the world's most conscious high-end fabrics.",
+    "image": "/images/lookbook/lookbook-03.png",
+    "content": "Silk has long represented one of fashion's most celebrated materials. Its softness, natural sheen, and remarkable ability to move with the body have made it a symbol of luxury for generations. Today, however, the conversation surrounding silk is expanding beyond beauty and craftsmanship to include the environmental and ethical story behind its production.\n\nA new generation of designers and textile makers is exploring ways to make silk production more responsible. Greater attention is being given to farming practices, water consumption, traceability, and the working conditions of the people involved throughout the supply chain. The result is a more transparent approach to one of fashion's most traditional materials.\n\nSustainable luxury does not necessarily mean sacrificing quality. Instead, it asks designers and consumers to consider where materials come from, how they are produced, and how long they are intended to last. When craftsmanship, durability, and responsible sourcing come together, luxury becomes less about excess and more about lasting value.\n\nThe future of silk may therefore depend not on producing more, but on producing with greater intention. This shift is helping redefine what luxury can mean in a world increasingly conscious of its resources."
+  },
+  {
+    "id": 3,
+    "category": "Lifestyle",
+    "readTime": "4 Min Read",
+    "title": "Minimalist Living: Curating Your Space and Self",
+    "description": "How the philosophy of 'Less is More' is transforming modern luxury home life.",
+    "image": "/images/lookbook/lookbook-04.png",
+    "content": "Minimalism is often described as the art of owning less, but its deeper meaning is about choosing with intention. In contemporary luxury interiors, this philosophy has become increasingly influential, replacing visual excess with carefully selected objects, natural materials, and spaces designed to create a sense of calm.\n\nA minimalist home does not have to feel empty. Warm wood, textured fabrics, stone surfaces, soft lighting, and handcrafted objects can create depth while maintaining a restrained visual language. Every element has a purpose, and every detail is given enough space to be appreciated.\n\nThe same philosophy can extend beyond interiors. A more intentional approach to clothing, objects, and daily routines encourages us to focus on quality rather than quantity. Instead of constantly replacing what we own, we begin to value pieces that age beautifully and remain meaningful over time.\n\nPerhaps the most luxurious aspect of minimalism is not simplicity itself, but the freedom it creates. By removing unnecessary distractions, we create more room for the things that genuinely matter."
+  },
+  {
+    "id": 4,
+    "category": "Fashion",
+    "readTime": "6 Min Read",
+    "title": "The Art of Tailoring: Behind the Perfect Silhouette",
+    "description": "A closer look at the craftsmanship, precision, and artistry behind modern luxury tailoring.",
+    "image": "/images/lookbook/fashion-week.png",
+    "content": "A perfectly tailored garment begins long before the first stitch is made. It starts with an understanding of proportion, movement, fabric, and the individual wearing the piece. In luxury tailoring, precision is not simply a technical requirement; it is part of the creative process.\n\nTraditional tailoring relies on a series of carefully considered steps. Measurements are taken with attention to posture and movement, patterns are developed and adjusted, and fabrics are shaped gradually to create a silhouette that feels natural rather than restrictive. Small details can make a remarkable difference: the position of a shoulder, the depth of a lapel, or the way a sleeve falls from the arm.\n\nModern tailoring continues to respect these traditions while experimenting with new proportions and materials. Designers are introducing softer constructions, unexpected silhouettes, and innovative textiles while maintaining the precision that defines exceptional craftsmanship.\n\nThe beauty of tailoring ultimately lies in its restraint. The best work often appears effortless because the craftsmanship is hidden within the garment. Every seam, curve, and proportion has been considered so that the final silhouette feels both distinctive and natural."
+  }
+]
+}
+}
+
+
+
+
